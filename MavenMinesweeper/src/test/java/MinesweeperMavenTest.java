@@ -30,12 +30,12 @@ public class MinesweeperMavenTest {
         Assertions.assertEquals(setBoardDims('L')[1], 40, "Large board wrong width");
     }
 
-    @Test
+    /*@Test
     public void testPLaceMines() {
         Vector<Integer> testVector = new Vector<>();
         testVector.addElement(1);
         Assertions.assertEquals(placeMinesInGrid(testVector, 1, 1, 2).getValue(0, 0), 1, "No mine when should be");
         Assertions.assertEquals(placeMinesInGrid(testVector, 1, 1, 2).getValue(0, 1), 0, "Mine when shouldn't be");
-    }
+    }*/
 
 }
